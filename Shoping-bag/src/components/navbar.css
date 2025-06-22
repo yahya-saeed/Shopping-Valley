@@ -1,0 +1,46 @@
+.main-title-home {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+.navbar {
+  background-color: brown;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  margin-right: 100px;
+  background-color: brown;
+  color: whitesmoke;
+}
+
+i {
+  font-size: 20px;
+}
+
+span {
+  font-size: 10px;
+  color: whitesmoke;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: brown;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+}

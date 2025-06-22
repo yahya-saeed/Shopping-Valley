@@ -1,0 +1,35 @@
+main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+  width: 80vw;
+  gap: 20px;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkBtn {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.linkBtn:hover {
+  background-color: #ff4757;
+}
